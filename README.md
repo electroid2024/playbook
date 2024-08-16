@@ -1,4 +1,4 @@
-# Electorid Marines Playbook 
+# Electroid Marines Playbook 
 
 Document generation status: [![example workflow](https://github.com/electroid2024/playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/electroid2024/playbook/actions)
 

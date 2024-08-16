@@ -1,4 +1,54 @@
 site_name: Electroid Marines Playbook
 site_url: https://electroid2024.github.io/playbook/
+site_description: Collection of resources for our FLL team's robot game 
+
+repo_name: playbook
+repo_url: https://github.com/electroid2024/playbook/
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  features:
+    - content.action.edit
+    - navigation.path
+    - navigation.top
+    - content.code.copy
+  icon:
+    edit: material/pencil 
+    view: material/eye
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  
+nav:
+  - Home: index.md
+  - 📅Schedule: schedule.md
+  - Week 1 - Refreshers: week_01.md
+  - Week 2: week_02.md
+  - Week 3: week_03.md
+  - Week 4: week_04.md
+  - Week 5: week_05.md
+  - Week 6: week_06.md
+  - Week 7: week_07.md
+  - Week 8: week_08.md
+  - Week 9: week_09.md
+  - Week 10: week_10.md
+  - Week 11: week_11.md
+  - Week 12: week_12.md

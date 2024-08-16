@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Welcome to Electroid Marines Playbook
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! note
 
-## Commands
+    Our playbook site is constantly being updated🏗️.<br>
+    Bookmark this site🔖, and come back often to check out the latest contents!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+![](./images/electroid-mayhem.jpg)
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+``` mermaid
+graph LR
+  A(Start) --> B[Plan<br>#40;Define#41;];
+  B --> C[Do<br>#40;Test#41;];
+  C --> D[Check<br>#40;Analyze#41;];
+  D --> E(Success!);
+  D --> F[Act<br>#40;Adjust#41;];
+  F --> B;
+```

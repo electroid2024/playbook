@@ -36,7 +36,12 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  
+
+extra:
+  analytics:
+    provider: google
+    property: G-712QTZWY7S
+
 nav:
   - Home: index.md
   - 📅Schedule: schedule.md

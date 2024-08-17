@@ -21,7 +21,9 @@ Following contents are from Coach Kiran's material from the last academic year.
 
 #### Python vs. Scratch
 
-✏️ How are they different?
+!!! example ""
+
+    ✏️ How are they different?
 
 #### "Hello World"
 
@@ -33,7 +35,7 @@ print("Hello, World!")
 
 !!! example ""
 
-    Replace "Hello World" with another sentence, and run again.
+    ✏️ Replace "Hello World" with another sentence, and run again.
 
 #### Syntax
 

@@ -40,7 +40,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: G-Q06PJNR9QF
+    property: G-2XGTJHSWKY
 
 nav:
   - Home: index.md

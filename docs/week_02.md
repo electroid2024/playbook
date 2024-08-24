@@ -140,7 +140,7 @@ Let's explore alternative navigation method, this time using a feedback from the
     from pybricks.pupdevices import Motor, ColorSensor, UltrasonicSensor
     from pybricks.parameters import Button, Color, Direction, Port, Side, Stop
     from pybricks.robotics import DriveBase
-    from pybricks.tools import wait, StopWatch
+    from pybricks.tools import wait, StopWatch, hub_menu
     import constants
 
     print("Menu shown: F, N")

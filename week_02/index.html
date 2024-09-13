@@ -1,0 +1,1240 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Collection of resources for our FLL team's robot game">
+      
+      
+      
+        <link rel="canonical" href="https://electroid2024.github.io/playbook/week_02/">
+      
+      
+        <link rel="prev" href="../week_01/">
+      
+      
+        <link rel="next" href="../week_05/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Week 2 - Experiments - Electroid Marines Playbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-2XGTJHSWKY"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-2XGTJHSWKY",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-2XGTJHSWKY",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#week-2-runnign-experiments" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Electroid Marines Playbook" class="md-header__button md-logo" aria-label="Electroid Marines Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Electroid Marines Playbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Week 2 - Experiments
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/electroid2024/playbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    playbook
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Electroid Marines Playbook" class="md-nav__button md-logo" aria-label="Electroid Marines Playbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Electroid Marines Playbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/electroid2024/playbook/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    playbook
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📅Schedule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 1 - Refreshers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Week 2 - Experiments
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Week 2 - Experiments
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#labratory-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labratory Notebook
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-experiments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Experiments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Experiments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gyro-on-and-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gyro - On and Off
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-feedback-ultrasonic-sensor-on-and-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sensor feedback (Ultrasonic sensor) - On and Off
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speed-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speed test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎁 Bonus
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-experiments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware Experiments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware Experiments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#non-linear-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Non-linear mechanism
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homework-for-next-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Homework for next session
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_03.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_04.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 5 - Multitask
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_06.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_07.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_08.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 8
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_09.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 9
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_10.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 10
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_11.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../week_12.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Week 12
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#labratory-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Labratory Notebook
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-experiments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Experiments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Experiments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gyro-on-and-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gyro - On and Off
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-feedback-ultrasonic-sensor-on-and-off" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sensor feedback (Ultrasonic sensor) - On and Off
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speed-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speed test
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonus" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎁 Bonus
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-experiments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware Experiments
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hardware Experiments">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#non-linear-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      Non-linear mechanism
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#homework-for-next-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      Homework for next session
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/electroid2024/playbook/edit/main/docs/week_02.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="week-2-runnign-experiments">Week 2 - Runnign Experiments</h1>
+<p>Hello, young engineers! </p>
+<p>Today’s mission: <em>experiment with our robots to find out their full potential</em>. </p>
+<p>Grab your notebooks and let’s start our journey of discovery!</p>
+<h2 id="labratory-notebook">Labratory Notebook</h2>
+<p><img alt="" src="../images/illustraion_of_a_mixed_race_kid_taking_notes__filling_some_tables_with_values_on_his_notebook__recording_his_trials_on-ded6b5b8-abd3-4404-80b6-de971de4a96a.webp" /></p>
+<p>Great discoveries start with great notes! </p>
+<p>Jotting things down in your lab notebook helps you remember your awesome ideas and learn from every experiment.</p>
+<h2 id="software-experiments">Software Experiments</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The folowoing codes are tested with a robot configured like this.</p>
+<p><img alt="" src="../images/IMG_1396.jpg" width="360" /> <img alt="" src="../images/IMG_1397.jpg" width="360" /></p>
+</div>
+<h3 id="gyro-on-and-off">Gyro - On and Off</h3>
+<p>Pybricks offer <a href="https://docs.pybricks.com/en/stable/robotics.html?highlight=gyro#pybricks.robotics.DriveBase.use_gyro"><code>use_gyro()</code></a> function to take advantage of the hub's internal IMU to keep robot's course.</p>
+<p>Let's run an experiment to see the benefit of this function by running the following code.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The code uses <a href="https://docs.pybricks.com/en/stable/tools/index.html?highlight=hub_menu#pybricks.tools.hub_menu"><code>hub_menu()</code></a> function to let you <strong>enable (<code>G</code>)</strong> or <strong>disable(<code>N</code>)</strong> the gyro function.</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1"><code>gyro_test.py</code></label><label for="__tabbed_1_2"><code>constants.py</code></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pybricks.tools</span> <span class="kn">import</span> <span class="n">hub_menu</span>
+<span class="kn">from</span> <span class="nn">pybricks.hubs</span> <span class="kn">import</span> <span class="n">PrimeHub</span>
+<span class="kn">from</span> <span class="nn">pybricks.pupdevices</span> <span class="kn">import</span> <span class="n">Motor</span><span class="p">,</span> <span class="n">ColorSensor</span><span class="p">,</span> <span class="n">UltrasonicSensor</span>
+<span class="kn">from</span> <span class="nn">pybricks.parameters</span> <span class="kn">import</span> <span class="n">Button</span><span class="p">,</span> <span class="n">Color</span><span class="p">,</span> <span class="n">Direction</span><span class="p">,</span> <span class="n">Port</span><span class="p">,</span> <span class="n">Side</span><span class="p">,</span> <span class="n">Stop</span>
+<span class="kn">from</span> <span class="nn">pybricks.robotics</span> <span class="kn">import</span> <span class="n">DriveBase</span>
+<span class="kn">from</span> <span class="nn">pybricks.tools</span> <span class="kn">import</span> <span class="n">wait</span><span class="p">,</span> <span class="n">StopWatch</span>
+<span class="kn">import</span> <span class="nn">constants</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Menu shown: G, N&quot;</span><span class="p">)</span>
+<span class="n">selected</span> <span class="o">=</span> <span class="n">hub_menu</span><span class="p">(</span><span class="s2">&quot;G&quot;</span><span class="p">,</span> <span class="s2">&quot;N&quot;</span><span class="p">)</span>
+
+<span class="n">wheel_e</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">E</span><span class="p">,</span> <span class="n">reset_angle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">wheel_a</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">A</span><span class="p">,</span> <span class="n">Direction</span><span class="o">.</span><span class="n">COUNTERCLOCKWISE</span><span class="p">,</span> <span class="n">reset_angle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">drive</span> <span class="o">=</span> <span class="n">DriveBase</span><span class="p">(</span><span class="n">left_motor</span><span class="o">=</span><span class="n">wheel_a</span><span class="p">,</span> 
+    <span class="n">right_motor</span><span class="o">=</span><span class="n">wheel_e</span><span class="p">,</span> 
+    <span class="n">wheel_diameter</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">WHEEL_DIAMETER</span><span class="p">,</span>
+    <span class="n">axle_track</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">AXLE_LENGTH</span><span class="p">)</span>
+
+<span class="n">drive</span><span class="o">.</span><span class="n">settings</span><span class="p">(</span><span class="n">straight_speed</span><span class="o">=</span><span class="mi">920</span><span class="p">,</span>
+    <span class="n">straight_acceleration</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> 
+    <span class="n">turn_rate</span><span class="o">=</span><span class="mi">920</span><span class="p">,</span> 
+    <span class="n">turn_acceleration</span><span class="o">=</span><span class="mi">900</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;G&quot;</span><span class="p">:</span>
+    <span class="n">drive</span><span class="o">.</span><span class="n">use_gyro</span><span class="p">(</span><span class="n">use_gyro</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;### Gyro enabled&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;N&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;### Gyro disabled&quot;</span><span class="p">)</span>
+
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">360</span><span class="p">)</span>
+<span class="n">wait</span><span class="p">(</span><span class="mi">5000</span><span class="p">)</span>          <span class="c1"># wait 5 sec</span>
+
+<span class="n">UNIT_LENGTH</span> <span class="o">=</span> <span class="mi">300</span>
+
+<span class="c1"># go NORTH</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing EAST&quot;</span><span class="p">)</span>
+
+<span class="c1"># go EAST</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing SOUTH&quot;</span><span class="p">)</span>
+
+<span class="c1"># go SOUTH</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing WEST&quot;</span><span class="p">)</span>
+
+<span class="c1"># go WEST</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing NORTH&quot;</span><span class="p">)</span>
+
+<span class="c1"># go back to ORIGIN</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="o">-</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Back to (supporsedly) the original position&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="c1">#Dimensions of the robot in mm</span>
+<span class="n">AXLE_LENGTH</span> <span class="o">=</span> <span class="mi">111</span>
+<span class="n">WHEEL_DIAMETER</span> <span class="o">=</span> <span class="mi">55</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Summerize your observation on your notebook.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>🔔 Gyro On</th>
+<th>🔕 Gyro Off</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Your observation</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Are there any other variables that impact the result? How about the smoothness of the floor?</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>🔔 Gyro On</th>
+<th>🔕 Gyro Off</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smooth surface</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rough surface</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="sensor-feedback-ultrasonic-sensor-on-and-off">Sensor feedback (Ultrasonic sensor) - On and Off</h3>
+<p>We have been relying on <strong>dead reckoning</strong> to have our robot navigate on the game mat.</p>
+<p>Let's explore alternative navigation method, this time using a feedback from the ultrasonic sensor to keep a certain distance from a side wall.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The code below assumes that you mount the ultrasonic distance sensor on the right hand side of the robot.</p>
+<p>It uses <a href="https://docs.pybricks.com/en/stable/tools/index.html?highlight=hub_menu#pybricks.tools.hub_menu"><code>hub_menu()</code></a> function to let you <strong>enable (<code>F</code>)</strong> or <strong>disable(<code>N</code>)</strong> the sensor feedback.</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1"><code>feedback_test.py</code></label><label for="__tabbed_2_2"><code>constants.py</code></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pybricks.tools</span> <span class="kn">import</span> <span class="n">hub_menu</span>
+<span class="kn">from</span> <span class="nn">pybricks.hubs</span> <span class="kn">import</span> <span class="n">PrimeHub</span>
+<span class="kn">from</span> <span class="nn">pybricks.pupdevices</span> <span class="kn">import</span> <span class="n">Motor</span><span class="p">,</span> <span class="n">ColorSensor</span><span class="p">,</span> <span class="n">UltrasonicSensor</span>
+<span class="kn">from</span> <span class="nn">pybricks.parameters</span> <span class="kn">import</span> <span class="n">Button</span><span class="p">,</span> <span class="n">Color</span><span class="p">,</span> <span class="n">Direction</span><span class="p">,</span> <span class="n">Port</span><span class="p">,</span> <span class="n">Side</span><span class="p">,</span> <span class="n">Stop</span>
+<span class="kn">from</span> <span class="nn">pybricks.robotics</span> <span class="kn">import</span> <span class="n">DriveBase</span>
+<span class="kn">from</span> <span class="nn">pybricks.tools</span> <span class="kn">import</span> <span class="n">wait</span><span class="p">,</span> <span class="n">StopWatch</span><span class="p">,</span> <span class="n">hub_menu</span>
+<span class="kn">import</span> <span class="nn">constants</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Menu shown: F, N&quot;</span><span class="p">)</span>
+<span class="n">selected</span> <span class="o">=</span> <span class="n">hub_menu</span><span class="p">(</span><span class="s2">&quot;F&quot;</span><span class="p">,</span> <span class="s2">&quot;N&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;F&quot;</span><span class="p">:</span>
+    <span class="n">sensor_feedback</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;### Sensor feedback enabled&quot;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;N&quot;</span><span class="p">:</span>
+    <span class="n">sensor_feedback</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;### Sensor feedback disabled&quot;</span><span class="p">)</span>
+
+<span class="n">wheel_e</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">E</span><span class="p">,</span> <span class="n">reset_angle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">wheel_a</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">A</span><span class="p">,</span> <span class="n">Direction</span><span class="o">.</span><span class="n">COUNTERCLOCKWISE</span><span class="p">,</span> <span class="n">reset_angle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">drive</span> <span class="o">=</span> <span class="n">DriveBase</span><span class="p">(</span><span class="n">left_motor</span><span class="o">=</span><span class="n">wheel_a</span><span class="p">,</span> 
+    <span class="n">right_motor</span><span class="o">=</span><span class="n">wheel_e</span><span class="p">,</span> 
+    <span class="n">wheel_diameter</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">WHEEL_DIAMETER</span><span class="p">,</span>
+    <span class="n">axle_track</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">AXLE_LENGTH</span><span class="p">)</span>
+
+<span class="n">drive</span><span class="o">.</span><span class="n">settings</span><span class="p">(</span><span class="n">straight_speed</span><span class="o">=</span><span class="mi">920</span><span class="p">,</span>
+    <span class="n">straight_acceleration</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> 
+    <span class="n">turn_rate</span><span class="o">=</span><span class="mi">920</span><span class="p">,</span> 
+    <span class="n">turn_acceleration</span><span class="o">=</span><span class="mi">900</span><span class="p">)</span>
+
+<span class="n">drive</span><span class="o">.</span><span class="n">use_gyro</span><span class="p">(</span><span class="n">use_gyro</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">rangesensor</span> <span class="o">=</span> <span class="n">UltrasonicSensor</span><span class="p">(</span><span class="n">port</span><span class="o">=</span><span class="n">Port</span><span class="o">.</span><span class="n">D</span><span class="p">)</span>
+
+<span class="n">TARGET_DISTANCE</span> <span class="o">=</span> <span class="mi">200</span>   <span class="c1"># Try to keep 20cm away from a wall on the right</span>
+<span class="n">LOW_SPEED</span>  <span class="o">=</span> <span class="mi">80</span>
+<span class="n">HIGH_SPEED</span> <span class="o">=</span> <span class="mi">300</span>
+
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">SPEEDUP_COUNT</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">END_COUNT</span> <span class="o">=</span> <span class="mi">500</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span> 
+
+    <span class="n">distance</span> <span class="o">=</span> <span class="n">rangesensor</span><span class="o">.</span><span class="n">distance</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">sensor_feedback</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="n">SPEEDUP_COUNT</span><span class="p">:</span>
+            <span class="n">correction_angle</span> <span class="o">=</span> <span class="p">(</span><span class="n">distance</span> <span class="o">-</span> <span class="n">TARGET_DISTANCE</span><span class="p">)</span><span class="o">*</span><span class="mi">2</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">count</span><span class="si">:</span><span class="s2">04</span><span class="si">}</span><span class="s2"> ... Measured: </span><span class="si">{</span><span class="n">distance</span><span class="si">}</span><span class="s2">, correction_angle: </span><span class="si">{</span><span class="n">correction_angle</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">drive</span><span class="o">.</span><span class="n">drive</span><span class="p">(</span><span class="n">LOW_SPEED</span><span class="p">,</span> <span class="n">correction_angle</span><span class="p">)</span>   
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">correction_angle</span> <span class="o">=</span> <span class="p">(</span><span class="n">distance</span> <span class="o">-</span> <span class="n">TARGET_DISTANCE</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">count</span><span class="si">:</span><span class="s2">04</span><span class="si">}</span><span class="s2"> &gt;&gt;&gt; Measured: </span><span class="si">{</span><span class="n">distance</span><span class="si">}</span><span class="s2">, correction_angle: </span><span class="si">{</span><span class="n">correction_angle</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">drive</span><span class="o">.</span><span class="n">drive</span><span class="p">(</span><span class="n">HIGH_SPEED</span><span class="p">,</span> <span class="n">correction_angle</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">count</span><span class="si">:</span><span class="s2">04</span><span class="si">}</span><span class="s2"> ||| Measured: </span><span class="si">{</span><span class="n">distance</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">drive</span><span class="o">.</span><span class="n">drive</span><span class="p">(</span><span class="n">HIGH_SPEED</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+    <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">count</span> <span class="o">&gt;</span> <span class="n">END_COUNT</span><span class="p">:</span>
+        <span class="n">drive</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
+        <span class="k">break</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="c1">#Dimensions of the robot in mm</span>
+<span class="n">AXLE_LENGTH</span> <span class="o">=</span> <span class="mi">111</span>
+<span class="n">WHEEL_DIAMETER</span> <span class="o">=</span> <span class="mi">55</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Summerize your observation on your notebook.</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>When aligned<br> perfectly</th>
+<th>When alignment<br> slightly off</th>
+<th>When alignment<br> wildly off</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔔 Feedback On</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>🔕 Feedback Off</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="speed-test">Speed test</h3>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<ol>
+<li>
+<p>Create a program (or modify the existing codes) to test various speed and acceleration.<br> Record each result and examine the effect on accuracy.</p>
+</li>
+<li>
+<p>Repeat the same for acceleration.</p>
+</li>
+<li>
+<p>Record each result and summerize your observation.</p>
+</li>
+</ol>
+</div>
+<details class="success">
+<summary>Solution</summary>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>By nesting the <code>hub_menu()</code> function, you can create mutliple-stage menu structure.</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1"><code>gyro_test_varispeed.py</code></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">pybricks.hubs</span> <span class="kn">import</span> <span class="n">PrimeHub</span>
+<span class="kn">from</span> <span class="nn">pybricks.pupdevices</span> <span class="kn">import</span> <span class="n">Motor</span><span class="p">,</span> <span class="n">ColorSensor</span><span class="p">,</span> <span class="n">UltrasonicSensor</span><span class="p">,</span> <span class="n">ForceSensor</span>
+<span class="kn">from</span> <span class="nn">pybricks.parameters</span> <span class="kn">import</span> <span class="n">Button</span><span class="p">,</span> <span class="n">Color</span><span class="p">,</span> <span class="n">Direction</span><span class="p">,</span> <span class="n">Port</span><span class="p">,</span> <span class="n">Side</span><span class="p">,</span> <span class="n">Stop</span>
+<span class="kn">from</span> <span class="nn">pybricks.robotics</span> <span class="kn">import</span> <span class="n">DriveBase</span>
+<span class="kn">from</span> <span class="nn">pybricks.tools</span> <span class="kn">import</span> <span class="n">wait</span><span class="p">,</span> <span class="n">StopWatch</span><span class="p">,</span> <span class="n">hub_menu</span>
+<span class="kn">import</span> <span class="nn">constants</span>
+
+<span class="n">hub</span> <span class="o">=</span> <span class="n">PrimeHub</span><span class="p">()</span>
+
+<span class="n">wheel_e</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">E</span><span class="p">,</span> <span class="n">reset_angle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">wheel_a</span> <span class="o">=</span> <span class="n">Motor</span><span class="p">(</span><span class="n">Port</span><span class="o">.</span><span class="n">A</span><span class="p">,</span> <span class="n">Direction</span><span class="o">.</span><span class="n">COUNTERCLOCKWISE</span><span class="p">,</span> <span class="n">reset_angle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">drive</span> <span class="o">=</span> <span class="n">DriveBase</span><span class="p">(</span><span class="n">left_motor</span><span class="o">=</span><span class="n">wheel_a</span><span class="p">,</span> 
+    <span class="n">right_motor</span><span class="o">=</span><span class="n">wheel_e</span><span class="p">,</span> 
+    <span class="n">wheel_diameter</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">WHEEL_DIAMETER</span><span class="p">,</span>
+    <span class="n">axle_track</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">AXLE_LENGTH</span><span class="p">)</span>
+
+<span class="n">selected_speed</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Menu shown: G, N, 1&quot;</span><span class="p">)</span>
+    <span class="n">selected</span> <span class="o">=</span> <span class="n">hub_menu</span><span class="p">(</span><span class="s2">&quot;G&quot;</span><span class="p">,</span> <span class="s2">&quot;N&quot;</span><span class="p">,</span> <span class="s2">&quot;1&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;G&quot;</span><span class="p">:</span>
+        <span class="n">drive</span><span class="o">.</span><span class="n">use_gyro</span><span class="p">(</span><span class="n">use_gyro</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;### Gyro enabled&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+    <span class="k">elif</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;N&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;### Gyro disabled&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+    <span class="k">elif</span> <span class="n">selected</span> <span class="o">==</span> <span class="s2">&quot;1&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Menu shown: 1, 2, 3, 4, 5, 6, 7, 8, 9&quot;</span><span class="p">)</span>
+        <span class="n">selected_speed</span> <span class="o">=</span> <span class="n">hub_menu</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
+
+<span class="n">speed</span> <span class="o">=</span> <span class="n">selected_speed</span><span class="o">*</span><span class="mi">100</span>
+
+<span class="n">drive</span><span class="o">.</span><span class="n">settings</span><span class="p">(</span><span class="n">straight_speed</span><span class="o">=</span><span class="n">speed</span><span class="p">,</span>
+    <span class="n">straight_acceleration</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span> 
+    <span class="n">turn_rate</span><span class="o">=</span><span class="n">speed</span><span class="p">,</span> 
+    <span class="n">turn_acceleration</span><span class="o">=</span><span class="mi">900</span><span class="p">)</span>
+
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">360</span><span class="p">)</span>
+<span class="n">wait</span><span class="p">(</span><span class="mi">2000</span><span class="p">)</span>          <span class="c1"># wait 2 sec</span>
+
+<span class="n">UNIT_LENGTH</span> <span class="o">=</span> <span class="mi">300</span>
+
+<span class="c1"># go NORTH</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing EAST&quot;</span><span class="p">)</span>
+
+<span class="c1"># go EAST</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing SOUTH&quot;</span><span class="p">)</span>
+
+<span class="c1"># go SOUTH</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing WEST&quot;</span><span class="p">)</span>
+
+<span class="c1"># go WEST</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">turn</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Now facing NORTH&quot;</span><span class="p">)</span>
+
+<span class="c1"># go back to ORIGIN</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">straight</span><span class="p">(</span><span class="o">-</span><span class="n">UNIT_LENGTH</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Back to (supporsedly) the original position&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+</details>
+<h3 id="bonus">🎁 Bonus</h3>
+<p>Run the following code 🎶.</p>
+<p><em>Credit: <a href="https://github.com/MonongahelaCryptidCooperative/FLL-2023-old/blob/main/mcc_icons_music.py">FTC team 23247 the Monongahela Cryptid Cooperative</a></em></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1"><code>melody.py</code></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>from pybricks.hubs import PrimeHub
+
+hub = PrimeHub()
+
+x0 = [&quot;D4/12&quot;, &quot;D4/12&quot;, &quot;D4/12&quot;]
+x1 = [&quot;G4/2&quot;, &quot;D5/2&quot;]
+x2 = [&quot;C5/12&quot;, &quot;B4/12&quot;, &quot;A4/12&quot;, &quot;G5/2&quot;,  &quot;D5/4&quot;]
+x3 = [&quot;C5/12&quot;, &quot;B4/12&quot;, &quot;C5/12&quot;, &quot;A4/2&quot;,  &quot;D4/6&quot;, &quot;D4/12&quot;]
+x4 = [&quot;E4/4.&quot;, &quot;E4/8&quot;, &quot;C5/8&quot;, &quot;B4/8&quot;,  &quot;A4/8&quot;, &quot;G4/8&quot;]
+x5 = [&quot;G4/12&quot;, &quot;A4/12&quot;, &quot;B4/12&quot;, &quot;A4/6&quot;, &quot;E4/12&quot;, &quot;F#4/4&quot;, &quot;D4/6&quot;, &quot;D4/12&quot;]
+x6 = [&quot;D5/4&quot;, &quot;A4/2&quot;, &quot;D4/6&quot;, &quot;D4/12&quot;]
+x7 = [&quot;G4/12&quot;, &quot;A4/12&quot;, &quot;B4/12&quot;, &quot;A4/6&quot;, &quot;E4/12&quot;, &quot;F#4/4&quot;, &quot;D5/6&quot;, &quot;D5/12&quot;]
+x8 = [&quot;G5/6&quot;, &quot;F5/12&quot;, &quot;Eb5/6&quot;, &quot;D5/12&quot;, &quot;C5/6&quot;, &quot;Bb4/12&quot;, &quot;A4/6&quot;, &quot;G4/12&quot;]
+x9 = [&quot;D5/2.&quot;]
+x10 = [&quot;G5/12&quot;, &quot;F5/12&quot;, &quot;Eb5/12&quot;, &quot;Bb5/2&quot;, &quot;A5/4&quot;, &quot;G5/8&quot;, &quot;R/8&quot;, &quot;G4/12&quot;, &quot;G4/12&quot;, &quot;G4/12&quot;, &quot;G4/4&quot;]
+test = x0 + x1 + x2 + x2 + x3 + x1 + x2 + x2 + x3 + x4 + x5 + x4 + x6 + x4 + x7 + x8 + x9 + x0 + x1 + x2 + x2 + x3 + x1 + x2 + x10
+hub.speaker.play_notes(test)
+</code></pre></div>
+</div>
+</div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Exercise</p>
+<p>Had fun? Try the other programs from <strong><a href="https://github.com/MonongahelaCryptidCooperative/">FTC team 23247 the Monongahela Cryptid Cooperative</a></strong></p>
+<ul>
+<li><a href="https://github.com/MonongahelaCryptidCooperative/FLL-2023-old">FLL-2023-old</a><ul>
+<li><a href="https://github.com/MonongahelaCryptidCooperative/FLL-2023-old/blob/main/mcc_icons_music.py"><code>mcc_icons_music.py</code></a> : You can create your own icons as well! </li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="hardware-experiments">Hardware Experiments</h2>
+<h3 id="non-linear-mechanism">Non-linear mechanism</h3>
+<p><img alt="" src="../images/non-linear-motion.gif" /></p>
+<div class="admonition abstract">
+<p class="admonition-title">Homework</p>
+<h2 id="homework-for-next-session">Homework for next session</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Create GitHub account</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Currently, it is not possible for a minor (age under 13) to create a GitHub account...</p>
+<p>So we need to find some way around...</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "navigation.path", "navigation.top", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
